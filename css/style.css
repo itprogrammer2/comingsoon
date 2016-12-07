@@ -1,0 +1,27 @@
+@font-face {
+    font-family: nimbussans;
+  	src: url(../assets/fonts/NimbusSans.ttf);
+}
+
+.title, .tagline, .comingsoon {
+	color:#fff;
+	font-family: nimbussans;
+}
+
+.title {
+	font-size: 1.9em;
+}
+
+.tagline {
+	font-size: 3.5em;
+}
+
+.comingsoon {
+	font-family: nimbussans;
+	font-size: 3em;
+	color:#ed1b24;
+	/*text-shadow: 2px 2px #fff;*/
+}
+
+
+
