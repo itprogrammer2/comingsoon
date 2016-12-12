@@ -105,8 +105,8 @@ html, body {
 }
 
 #services {
-  background-color: #306d9f;
-  color: #ffffff;
+  /*background-color: #306d9f;
+  color: #ffffff;*/
 }
 #services .glyphicon {
   border: 2px solid #FFFFFF;
@@ -178,36 +178,148 @@ footer .glyphicon:hover {
 
 /*WORKSPACE*/
 
-.fifty {
+.workspace-left {
   float: left;
-  width: 50%;
-  padding: 2%;
+  width: 55%;
+  /*padding: 0 2% 0 2%;*/
 }
 
-.hexagon {
+.workspace-right {
+  float: left;
+  width: 45%;
+  /*padding: 0 2% 0 2%;*/
+}
+
+.hexagon-sm {
   position: relative;
-  width: 50px; 
-  height: 28.87px;
+  width: 40px;
+  height: 23.09px;
   background-color: #e94a4e;
-  margin: 14.43px 0;
+  margin: 9.55px 0;
 }
 
-.hexagon:before,
-.hexagon:after {
+.hexagon-sm:before,
+.hexagon-sm:after {
   content: "";
   position: absolute;
   width: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
 }
 
-.hexagon:before {
+.hexagon-sm:before {
   bottom: 100%;
-  border-bottom: 14.43px solid #e94a4e;
+  border-bottom: 11.55px solid #e94a4e;
 }
 
-.hexagon:after {
+.hexagon-sm:after {
   top: 100%;
   width: 0;
-  border-top: 14.43px solid #e94a4e;
+  border-top: 11.55px solid #e94a4e;
+}
+
+.hexagon-bg-1 {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  background-color: #e94a4e;
+  margin: 43.30px 0;
+}
+
+.hexagon-bg-1:before,
+.hexagon-bg-1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon-bg-1:before {
+  bottom: 100%;
+  border-bottom: 43.30px solid #e94a4e;
+}
+
+.hexagon-bg-1:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.30px solid #e94a4e;
+}
+
+.hexagon-bg-2 {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  background-color: #1e475a;
+  margin: 43.30px 0;
+}
+
+.hexagon-bg-2:before,
+.hexagon-bg-2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon-bg-2:before {
+  bottom: 100%;
+  border-bottom: 43.30px solid #1e475a;
+}
+
+.hexagon-bg-2:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.30px solid #1e475a;
+}
+
+.hexagon-md {
+  position: relative;
+  width: 80px; 
+  height: 46.19px;
+  /*background-color: #ffffff;*/
+  margin: 23.09px 0;
+  border-left: solid 5px #63767f;
+  border-right: solid 5px #63767f;
+}
+
+.hexagon-md:before,
+.hexagon-md:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 56.57px;
+  height: 56.57px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 6.7157px;
+}
+
+.hexagon-md:before {
+  top: -28.2843px;
+  border-top: solid 7.0711px #63767f;
+  border-right: solid 7.0711px #63767f;
+}
+
+.hexagon-md:after {
+  bottom: -28.2843px;
+  border-bottom: solid 7.0711px #63767f;
+  border-left: solid 7.0711px #63767f;
+}
+
+.hr {
+  width: 15px;
+  height: 17px;
+  padding-left: 10px;
+}
+
+.line {
+  height: 100%;
+  float: left;
+  margin-top: -1px;
+  margin-left:9px;
+  border-left: 2px solid #e94a4e;
 }
